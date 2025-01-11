@@ -14,3 +14,18 @@ count=0
 for each in lists:
     count=count+each
     print(count)
+
+#while loop
+
+i=0
+while (i<=10):
+    print(i)
+    i=i+1
+each=0
+totalCount=0
+listCount=len(lists)
+while (each<listCount):
+   totalCount=totalCount+lists[each]
+   each=each+1
+
+print(totalCount)
